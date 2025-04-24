@@ -56,7 +56,7 @@ class MakeCustomerRecord:
     orders: list[str]
 
     def __call__(self, name: str) -> dict[str, Any]:
-        return return {"name": name, "orders": orders}
+        return {"name": name, "orders": orders}
 
 
 def test_customer_records(make_customer_record: MakeCustomerRecord):
